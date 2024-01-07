@@ -1,0 +1,40 @@
+
+
+#about-us {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #007bff;
+}
+
+.section-title-underline {
+  width: 70px;
+  height: 3px;
+  background-color: #007bff;
+  margin: 0 auto 20px;
+}
+
+.about-us-text {
+  font-size: 1.1rem;
+  color: #495057;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  #about-us {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .about-us-text {
+    font-size: 1rem;
+  }
+}
